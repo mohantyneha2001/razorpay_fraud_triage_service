@@ -1,0 +1,33 @@
+
+[
+  {
+    "policy_id": "P1",
+    "title": "High-value card payment review",
+    "text": "A card payment above INR 50000 from a device first seen within the last 7 days must be held for review by the card risk team before settlement."
+  },
+  {
+    "policy_id": "P2",
+    "title": "UPI velocity limits",
+    "text": "More than 6 UPI payments from one customer within 24 hours triggers a velocity alert. The UPI risk team places a temporary hold and contacts the customer to confirm the activity."
+  },
+  {
+    "policy_id": "P3",
+    "title": "Night-time and distance anomalies",
+    "text": "Payments made at night between midnight and 5 AM, including at 3 AM, when the transaction location is more than 100 km away from the customer's home city or far from home, must be flagged for review. A payment made in the early morning far from the customer's usual location is also considered a night-time and distance anomaly. The customer care team calls the customer to verify the transaction before the payment is released."
+  },
+  {
+    "policy_id": "P4",
+    "title": "Unauthorised payment and chargeback handling",
+    "text": "When a customer reports an unauthorised payment, the merchant operations team opens a chargeback case, blocks further payments on the payment instrument and sends a notification to the customer. If the customer asks what happens after reporting an unauthorised payment, explain that a chargeback case is opened, further payments on the instrument are blocked, and the customer is notified."
+  },
+  {
+    "policy_id": "P5",
+    "title": "Electronics merchant watchlist",
+    "text": "Electronics merchants receive extra monitoring. A payment above INR 30000 on a new account younger than 30 days is held for review by the merchant operations team."
+  },
+  {
+    "policy_id": "P6",
+    "title": "Low-risk auto-approval",
+    "text": "Payments with a fraud score below the approved threshold on an established account are approved automatically and need no manual review."
+  }
+]

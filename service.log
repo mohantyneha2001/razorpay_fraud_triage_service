@@ -1,0 +1,8 @@
+2026-10-22 13:56:49,572 INFO /score status=200 latency_ms=38.60
+2026-10-22 13:56:49,614 INFO /case status=200 latency_ms=37.53
+2026-10-22 13:56:49,641 WARNING Invalid transaction input: SMOKE004
+2026-10-22 13:56:49,642 INFO /score status=400 latency_ms=1.74
+2026-10-22 13:56:49,646 WARNING Invalid transaction input: SMOKE005
+2026-10-22 13:56:49,647 INFO /score status=400 latency_ms=1.42
+2026-10-22 13:56:49,653 WARNING Invalid transaction input: SMOKE006
+2026-10-22 13:56:49,654 INFO /score status=400 latency_ms=2.04

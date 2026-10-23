@@ -1,0 +1,82 @@
+[
+  {
+    "query": "card payment above INR 50000 from a new device",
+    "expected": "P1",
+    "actual": "P1",
+    "score": 0.5512,
+    "status": "policy_match",
+    "passed": true
+  },
+  {
+    "query": "how many UPI payments in 24 hours trigger a velocity alert",
+    "expected": "P2",
+    "actual": "P2",
+    "score": 0.8166,
+    "status": "policy_match",
+    "passed": true
+  },
+  {
+    "query": "payment at 3 AM far away from the home city",
+    "expected": "P3",
+    "actual": "P3",
+    "score": 0.6941,
+    "status": "policy_match",
+    "passed": true
+  },
+  {
+    "query": "customer reports unauthorised payment and chargeback case",
+    "expected": "P4",
+    "actual": "P4",
+    "score": 0.5908,
+    "status": "policy_match",
+    "passed": true
+  },
+  {
+    "query": "electronics merchant payment on an account younger than 30 days",
+    "expected": "P5",
+    "actual": "P5",
+    "score": 0.5695,
+    "status": "policy_match",
+    "passed": true
+  },
+  {
+    "query": "which payments are approved automatically without manual review",
+    "expected": "P6",
+    "actual": "P6",
+    "score": 0.4913,
+    "status": "policy_match",
+    "passed": true
+  },
+  {
+    "query": "temporary hold on repeated UPI payments within a day",
+    "expected": "P2",
+    "actual": "P2",
+    "score": 0.8061,
+    "status": "policy_match",
+    "passed": true
+  },
+  {
+    "query": "what happens after a customer reports an unauthorised payment",
+    "expected": "P4",
+    "actual": "P4",
+    "score": 0.4606,
+    "status": "policy_match",
+    "passed": true
+  },
+  {
+    "query": "what is the cafeteria menu today",
+    "expected": null,
+    "actual": null,
+    "score": 0.0,
+    "status": "no_policy_match",
+    "passed": true
+  },
+  {
+    "query": "how do I reset my email password",
+    "expected": null,
+    "actual": null,
+    "score": 0.0,
+    "status": "no_policy_match",
+    "passed": true
+  }
+]
